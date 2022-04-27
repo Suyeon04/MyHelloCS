@@ -19,7 +19,7 @@ namespace MyHelloCS
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("트위터 일론 머스크한테 인수당했대ㅜㅜ", "트친님이 말씀하시길", MessageBoxButtons.RetryCancel, MessageBoxIcon.Question);
         }
     }
 }
