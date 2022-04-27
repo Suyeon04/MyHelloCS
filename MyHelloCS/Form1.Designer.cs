@@ -28,13 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnHello = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnHello
+            // 
+            this.btnHello.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHello.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHello.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnHello.Location = new System.Drawing.Point(129, 241);
+            this.btnHello.Name = "btnHello";
+            this.btnHello.Size = new System.Drawing.Size(335, 163);
+            this.btnHello.TabIndex = 0;
+            this.btnHello.Text = "Hello";
+            this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(606, 450);
+            this.Controls.Add(this.btnHello);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +57,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnHello;
     }
 }
 
